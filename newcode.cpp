@@ -1,7 +1,7 @@
 #include<iostream.h>
 
-void main();
+void main()
 {
-  printf("Welcome its c++");
-  printf("C & C++");
+  cout<<"Welcome its c++";
+  cout<<"C & C++";
 }
