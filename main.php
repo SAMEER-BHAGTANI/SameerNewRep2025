@@ -3,12 +3,17 @@
 <title>www.infopoint.com</title>
 </head>
 <body>
+  <form method="POST">
+    Enter your name : <input type="text" name="name">
+    <input type="submit" name="submit">
+  </form>
 <?php
 
-  $a=5;
-
-  echo "Welcome";
-  echo "Value of a = $a";
+if(isset($_POST['submit']))
+{
+  $name=$_POST['name'];
+  echo "Hello $name";
+}
 
 ?>
 </body>
