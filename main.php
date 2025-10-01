@@ -5,10 +5,10 @@
 <body>
 <?php
 
-  a=5
+  $a=5;
 
-  echo "Welcome"
-  echo "Value of a = a"
+  echo "Welcome";
+  echo "Value of a = $a";
 
 ?>
 </body>
