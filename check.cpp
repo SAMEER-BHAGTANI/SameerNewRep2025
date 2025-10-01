@@ -1,11 +1,11 @@
 #include<iostream.h>
 
-void main();
+void main()
 {
-  int a
+  int a;
 
-  cout<<"\n\t\t\tEnter your marks : "
-  cin>>a
+  cout<<"\n\t\t\tEnter your marks : ";
+  cin>>a;
 
-  (a<35)?cout<<"Fail":cout<<Pass
+  (a<35)?cout<<"Fail":cout<<"Pass";
 }
