@@ -7,5 +7,8 @@ void main()
   cout<<"\n\t\t\tEnter your marks : ";
   cin>>a;
 
-  (a<35)?cout<<"Fail":cout<<"Pass";
+  if(a<35)
+    cout<<"\n\t\t\tYou are fail";
+  else
+    cout<<"\n\t\t\tYou are pass";
 }
