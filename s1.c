@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<Conio.h>
+#include<conio.h>
 
-void main();
+void main()
 {
-  printf("\n\t\t\tWelcome")
+  printf("\n\t\t\tWelcome");
 }
