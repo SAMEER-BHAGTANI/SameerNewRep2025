@@ -1,2 +1,4 @@
 def myfunc():
-print("Hello There")
+  print("Hello There")
+
+myfunc()
