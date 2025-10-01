@@ -1,3 +1,5 @@
 def display():
-print("Hello")
-print("Welcome")
+  print("Hello")
+  print("Welcome")
+
+display()
